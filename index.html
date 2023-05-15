@@ -1,12 +1,62 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  <img src="/image.png" alt="image of udemy"
-</body>
+<html>
+  <head>
+    <style>
+      nav {
+        background: pink;
+      }
+
+      div.parent {
+        display: grid;
+        grid-template-columns: 20% 80%;
+        min-height: 100vh;
+        grid-gap: 20px;
+      }
+
+      div.child {
+        background: gold;
+      }
+      .box {
+        width: 100px;
+        height: 100px;
+        background: yellow;
+        border: 5px solid green;
+        padding: 15px;
+        margin: 15px;
+      }
+      p{
+        background: red;
+      }
+      .paragraph_2{
+        background:blue;
+      }
+      #paragraph_3{
+        background:green;
+      }
+      div.parent p:nth-child(2) strong {
+        background:pink;
+      }
+      a{
+        background:white;
+        
+
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="parent">
+      <nav>hello</nav>
+      <div class="child">
+        <p>Hello my friends how are you gyus</p>
+        <p>
+          Anyways idk what i am doing.
+        <a href="https://apple.com">and Apple</a>
+        <a href="#">This is a link(this is backup)</a>
+        </p>
+        <p class="paragraph_2">this has been selected using a <strong>class</strong> selector ...Actually, I was averridde by the nth-child selector</p>
+        <p id="paragraph_3">this is has been selected using a class selector</p>
+        <div class="box">box</div>
+      </div>
+    </div>
+  </body>
 </html>
