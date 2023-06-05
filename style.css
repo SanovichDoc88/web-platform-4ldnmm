@@ -1,22 +1,22 @@
 nav {
-  background: pink;
+  background: ;
 }
 
 div.parent {
   display: grid;
-  grid-template-columns: 20% 80%;
+  grid-template-columns: 200px auto;
   min-height: 100vh;
   grid-gap: 20px;
 }
 
 div.child {
-  background: gold;
+  background: black;
 }
 .box {
   width: 100px;
   height: 100px;
-  background: yellow;
-  border: 5px solid green;
+  background: black;
+  border: 5px solid violet;
   padding: 15px;
   margin: 15px;
 }
@@ -27,7 +27,7 @@ p{
   background:blue;
 }
 #paragraph_3{
-  background:green;
+  background:violet;
 }
 div.parent p:nth-child(2) strong {
   background:pink;
@@ -37,16 +37,37 @@ a{
 }
 nav li {
   list-style-type: none;
+  margin: 20px;
 }
 nav ul{
   padding: 0;
 }
 .block-div{
-  background: turquoise;
-  display: block;
+  background:violet;
   border-width: 2px;
-  border-color: black;
+  border-color:bl;
   border-style: solid;
   padding: 1rem;
   margin: 2rem;
+  display: block;
+}
+
+.inline-div {
+  display:  inline;
+  background-color: green;
+  color: white;
+}
+
+#spacing-lesson{
+  width: 100px;
+  height: 40px;
+  margin: 25px;
+  padding: 100px;
+  margin:auto;
+  margin-top: 15px;
+  text-align: center;
+}
+.bi{
+  margin-right: 4px;
+  margin-left: 5px;
 }
